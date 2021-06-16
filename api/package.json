@@ -1,0 +1,26 @@
+{
+  "name": "weekly-food-plan-api",
+  "version": "1.0.0",
+  "description": "A api for an web app do define what i am buying and eating for a week",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "weekly-food-plan"
+  },
+  "author": "Malek Hamza",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validation": "^3.0.8",
+    "joi": "^17.4.0",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0"
+  }
+}
