@@ -11,3 +11,6 @@ ui/node_modules
 /proxy-server
 
 api/db.sqlite
+
+# Dist
+ui/dist

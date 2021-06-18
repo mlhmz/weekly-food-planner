@@ -3,8 +3,8 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const { validate, ValidationError, Joi } = require('express-validation');
-const database = require("../src/database.js");
-const methods = require('../src/methods.js');
+const database = require("./database.js");
+const methods = require('./methods.js');
 
 // Allow Cors from everywhere because it will be an local Application
 app.use(cors())

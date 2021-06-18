@@ -4,8 +4,10 @@
   "description": "A api for an web app do define what i am buying and eating for a week",
   "main": "main.js",
   "scripts": {
-    "start": "nodemon src/main.js",
+    "start:dev": "nodemon src/main.js",
+    "start:prod": "node dist/main.js",
     "test": "mocha"
+
   },
   "repository": {
     "type": "git",
