@@ -1,7 +1,7 @@
 {
   "name": "weekly-food-plan-api",
   "version": "1.0.0",
-  "description": "A api for an web app do define what i am buying and eating for a week",
+  "description": "An api for a web app it can set in Weekdays what a Person wants to eat and which ingredients he need.",
   "main": "main.js",
   "scripts": {
     "start:dev": "nodemon src/main.js",
