@@ -1,28 +1,45 @@
 <template>
-  <Content msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <div id="nav">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <router-link class="navbar-brand" to="/">Essensplan</router-link>
+        <div class="" id="navbarNav">
+          <ul class="navbar-nav">
+          <li class="nav-item">
+            <router-link to="/manage">⚙</router-link>
+          </li>
+      </ul>  
+    </div>
+  </nav>
+  </div>
+    <router-view/>
+  </div>
+  
 </template>
 
-<script>
-import Content from './components/Content.vue'
-import 'bootstrap/scss/bootstrap.scss';
+<style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-export default {
-  name: 'App',
-  components: {
-    Content
-  }
-}
-</script>
+$primary-color: #007bff;
+$second-color: #343a40;
 
-<style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  color: $second-color;
 }
 
-a {
-  margin-left: 15px;
+
+#nav a {
+  font-weight: bold;
+  color: $second-color;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+#nav a.router-link-exact-active {
+  color: $primary-color;
 }
 </style>
