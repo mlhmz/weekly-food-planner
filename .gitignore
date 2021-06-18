@@ -1,2 +1,13 @@
+# Node Modules and Eslint CFG from the API
 api/node_modules
 api/.eslintrc.json
+api/db.sqlite
+api/src/db.sqlite
+
+# UI Node Modules
+ui/node_modules
+
+# Proxy Server
+/proxy-server
+
+api/db.sqlite
