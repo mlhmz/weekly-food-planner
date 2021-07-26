@@ -42,4 +42,10 @@ $second-color: #343a40;
 #nav a.router-link-exact-active {
   color: $primary-color;
 }
+
+@media print {
+  #nav {
+    display:none;
+  }
+}
 </style>

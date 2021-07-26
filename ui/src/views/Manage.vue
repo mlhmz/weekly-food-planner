@@ -70,7 +70,7 @@ export default {
         }
       },
       send() {
-        axios.post("http://192.168.2.171:3001/set", {
+        axios.post("http://localhost:3000/set", {
           weekday: this.weekday,
           food: this.food,
           ingredients: this.ingredients
